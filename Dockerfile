@@ -12,7 +12,7 @@ RUN pacman -S --noconfirm llvm
 RUN pacman -S --noconfirm cmake
 RUN pacman -S --noconfirm qt6-base
 RUN pacman -S --noconfirm vulkan-devel
-RUN pacman -S --noconfirm glfw3
+RUN pacman -S --noconfirm glfw
 RUN pacman -S --noconfirm glslang
 RUN pacman -S --noconfirm glm
 RUN pacman -S --noconfirm gtest
